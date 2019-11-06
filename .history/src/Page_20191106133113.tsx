@@ -1,11 +1,11 @@
 import React from 'react';
-import { BrowserRouter, Route, Switch, Redirect } from 'react-router-dom';
+import { BrowserRouter as Router, Route, Switch, Redirect } from 'react-router-dom';
 import NotFound from './components/pages/NotFound';
 import Login from './components/pages/Login';
 import App from './App';
 
 export default () => (
-    <BrowserRouter>
+    <Router>
         <Switch>
             <Route exact path="/" render={() => <Redirect to="/app/dashboard/index" push />} />
             <Route path="/app" component={App} />
@@ -13,5 +13,5 @@ export default () => (
             <Route path="/login" component={Login} />
             <Route component={NotFound} />
         </Switch>
-    </BrowserRouter>
+    </Router>
 );

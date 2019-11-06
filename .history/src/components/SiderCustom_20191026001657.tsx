@@ -22,6 +22,7 @@ type SiderCustomState = {
 };
 
 class SiderCustom extends Component<SiderCustomProps, SiderCustomState> {
+
     constructor(props: any) {
         super(props);
         this.state = {
@@ -63,7 +64,6 @@ class SiderCustom extends Component<SiderCustomProps, SiderCustomState> {
         const { selectedKey, openKey, firstHide, collapsed } = this.state;
         return (
             <Sider
-                width="240"
                 trigger={null}
                 breakpoint="lg"
                 collapsed={collapsed}
@@ -81,7 +81,7 @@ class SiderCustom extends Component<SiderCustomProps, SiderCustomState> {
                 <style>
                     {`
                     #nprogress .spinner{
-                        left: ${collapsed ? '70px' : '240px'};
+                        left: ${collapsed ? '70px' : '206px'};
                         right: 0 !important;
                     }
                     `}

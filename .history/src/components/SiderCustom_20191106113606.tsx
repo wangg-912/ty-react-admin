@@ -63,14 +63,14 @@ class SiderCustom extends Component<SiderCustomProps, SiderCustomState> {
         const { selectedKey, openKey, firstHide, collapsed } = this.state;
         return (
             <Sider
-                width="240"
                 trigger={null}
                 breakpoint="lg"
                 collapsed={collapsed}
-                style={{ overflowY: 'auto' }}
+                style={{ overflowY: 'auto', width: 240 }}
             >
                 <div className="logo" />
                 <SiderMenu
+                    style={{ width: 240 }}
                     menus={routes.menus}
                     onClick={this.menuClick}
                     mode="inline"

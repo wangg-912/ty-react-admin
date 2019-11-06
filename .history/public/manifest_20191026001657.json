@@ -1,11 +1,12 @@
 {
   "name": "ReactAdmin",
   "short_name": "ReactAdmin",
-  "theme_color": "#001529",
-  "background_color": "#001529",
+  "theme_color": "#313653",
+  "background_color": "#313653",
   "display": "fullscreen",
   "start_url": ".",
-  "icons": [{
+  "icons": [
+    {
       "src": "images/icons/icon-72x72.png",
       "sizes": "72x72",
       "type": "image/png"

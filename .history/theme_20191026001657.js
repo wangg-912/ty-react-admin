@@ -7,7 +7,7 @@ const options = {
     varFile: path.join(__dirname, './src/style/antd/variables.less'),
     mainLessFile: path.join(__dirname, './src/style/antd/index.less'),
     indexFileName: 'index.html',
-    outputFilePath: path.join(__dirname, '/public/theme.less'),
+    outputFilePath: path.join(__dirname, './public/theme.less'),
 }
 
 generateTheme(options).then(less => {
