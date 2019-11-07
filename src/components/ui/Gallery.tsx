@@ -102,14 +102,14 @@ class Gallery extends React.Component {
                             />
                         </div>
                         <div className="pa-m">
-                            <h3>React Admin</h3>
+                            <h3>中教智汇</h3>
                             <small>
                                 <a
-                                    href="https://yezihaohao.github.io/"
+                                    href="https://github.com/wg-paddme/ty-react-admin"
                                     target="_blank"
                                     rel="noopener noreferrer"
                                 >
-                                    https://yezihaohao.github.io/
+                                    https://github.com/wg-paddme/ty-react-admin
                                 </a>
                             </small>
                         </div>

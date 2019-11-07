@@ -34,7 +34,6 @@
 #### 2017-08-26
 
 -   增加响应式布局 - 替换 antd Col 组件的响应式栅格为 md(具体参数用法请查看 antd 官方文档) - 初始化页面是获取当前浏览器宽度设置菜单显示类型 - 监听 window 的 onresize 函数，设置菜单显示类型。PS：浏览器宽度存入 redux 中，方便组件之间传递。
-    ![截图](https://raw.githubusercontent.com/yezihaohao/react-admin/master/src/style/imgs/mobile.gif)
 
 #### 2017-09-13
 
@@ -67,16 +66,16 @@
 
 -   重大更新 :sparkles:
     -   升级 create-react-app 2.x，详情文档见[官方文档](https://reactjs.org/blog/2018/10/01/create-react-app-v2.html)
--   升级大部分第三方库，升级版本见[commit](https://github.com/yezihaohao/react-admin/commit/d8dc0ff0c6517c57a46d731adba69112a55145a9#diff-b9cfc7f2cdf78a7f4b91a753d10865a2)
--   增加自定义主题功能 - 主题基础样式配置见[variables.less](https://github.com/yezihaohao/react-admin/blob/master/src/style/antd/variables.less) - 修改主题基础样式后执行`yarn theme 或 npm run theme`，默认主题即可生效 - 页面上可自定义主题颜色配置(根据此可添加字体大小等其他 antd 的默认样式)
-    ![自定义主题](https://raw.githubusercontent.com/yezihaohao/react-admin/master/screenshots/themepicker.png)
+-   升级大部分第三方库
+-   增加自定义主题功能 - 主题基础样式配置
+-   修改主题基础样式后执行`yarn theme 或 npm run theme`，默认主题即可生效 - 页面上可自定义主题颜色配置(根据此可添加字体大小等其他 antd 的默认样式)
 
 #### 2018-11-07
 
 -   完善 PWA 的 manifest.json 文件，增加按钮手动触发安装 PWA 应用
     -   最新版的 chrome 浏览器访问[ReactAdmin](https://admiring-dijkstra-34cb29.netlify.com/)即可体验
 
-![PWA](https://raw.githubusercontent.com/yezihaohao/react-admin/master/screenshots/pwa.png)
+![PWA]
 
 #### 2018-11-26
 
@@ -88,19 +87,17 @@
 
 #### 2019-03-20
 
--   增加[redux-alita](https://github.com/yezihaohao/redux-alita),极简的 redux 工具用法，详情见其代码仓库
+-   增加[redux-alita]，详情见其代码仓库
 
 #### 2019-05-10
 
 -   升级 react，react-dom，增加 hooks 支持（去掉 react-hot-loader，老版本 hot-loader 使用 hook 有点问题）
 -   增加菜单可拖拽
 
-![截图](https://raw.githubusercontent.com/yezihaohao/react-admin/master/screenshots/menu_draggable.gif)
-
 #### 2019-09-04
 
 -   增加 Git 提交 message 规范约束工具[commitizen](https://github.com/commitizen/cz-cli)
-    -   Git 提交规范往往是团队编码必需，借助工具能形成更好的约束，如果你不喜欢用，可参照提交记录去掉[bd426fd](https://github.com/yezihaohao/react-admin/commit/a9401d191edd077bc3e59c8dbeeb61e5029cde95)
+    -   Git 提交规范往往是团队编码必需，借助工具能形成更好的约束，如果你不喜欢用
 
 #### 2019-09-26
 
@@ -109,4 +106,3 @@
 #### 2019-10-26
 
 -   新增访客模式的路由配置+demo（主路由配置）
-    -   [在线 Demo](https://admiring-dijkstra-34cb29.netlify.com/#/app/extension/visitor)
