@@ -74,6 +74,7 @@ class SiderCustom extends Component<SiderCustomProps, SiderCustomState> {
                     menus={routes.menus}
                     onClick={this.menuClick}
                     mode="inline"
+                    collapsed={collapsed}
                     selectedKeys={[selectedKey]}
                     openKeys={firstHide ? [] : [openKey]}
                     onOpenChange={this.openMenu}

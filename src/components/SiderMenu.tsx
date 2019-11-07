@@ -34,11 +34,12 @@ type SiderMenuProps = MenuProps & {
     menus: any;
     onClick: (e: any) => void;
     selectedKeys: string[];
+    collapsed?: boolean | undefined;
     openKeys: string[];
     onOpenChange: (v: string[]) => void;
 };
 
-export default ({ menus, ...props }: SiderMenuProps) => {
+export default ({ collapsed, menus, ...props }: SiderMenuProps) => {
     const [dragItems, setDragItems] = useState(menus);
     const reorder = (list: any, startIndex: number, endIndex: number) => {
         const result = Array.from(list);
@@ -69,7 +70,11 @@ export default ({ menus, ...props }: SiderMenuProps) => {
                                             {...provided.dragHandleProps}
                                             {...provided.draggableProps}
                                         >
-                                            <Menu {...props} style={{ width: 240 }}>
+                                            <Menu
+                                                {...props}
+                                                style={{ width: collapsed ? 70 : 240 }}
+                                            >
+                                                {console.log(props)}
                                                 {item.subs!
                                                     ? renderSubMenu(item)
                                                     : renderMenuItem(item)}
