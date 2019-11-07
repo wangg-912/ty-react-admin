@@ -39,27 +39,27 @@ class App extends Component<AppProps> {
     componentDidMount() {
         const openNotification = () => {
             notification.open({
-                message: '博主-yezihaohao',
+                message: '博主-G.W',
                 description: (
                     <div>
                         <p>
                             GitHub地址：{' '}
                             <a
-                                href="https://github.com/yezihaohao"
+                                href="https://github.com/wg-paddme/ty-react-admin"
                                 target="_blank"
                                 rel="noopener noreferrer"
                             >
-                                https://github.com/yezihaohao
+                                https://github.com/wg-paddme/ty-react-admin
                             </a>
                         </p>
                         <p>
                             博客地址：{' '}
                             <a
-                                href="https://yezihaohao.github.io/"
+                                href="https://github.com/wg-paddme/ty-react-admin"
                                 target="_blank"
                                 rel="noopener noreferrer"
                             >
-                                https://yezihaohao.github.io/
+                                https://github.com/wg-paddme/ty-react-admin
                             </a>
                         </p>
                     </div>
@@ -108,7 +108,7 @@ class App extends Component<AppProps> {
                             <Routes auth={auth} />
                         </Content>
                         <Footer style={{ textAlign: 'center' }}>
-                            React-Admin ©{new Date().getFullYear()} Created by 865470087@qq.com
+                            React-Admin ©{new Date().getFullYear()} Created by 642008633@qq.com
                         </Footer>
                     </Layout>
                 </Layout>

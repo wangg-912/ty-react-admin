@@ -1378,6 +1378,7 @@
 "@types/react-document-title@^2.0.3":
   version "2.0.3"
   resolved "https://registry.npm.taobao.org/@types/react-document-title/download/@types/react-document-title-2.0.3.tgz#32d0b3d0d36a9041d13b01106c64309388a0153a"
+  integrity sha1-MtCz0NNqkEHROwEQbGQwk4igFTo=
   dependencies:
     "@types/react" "*"
 
